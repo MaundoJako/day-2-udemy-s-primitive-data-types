@@ -1,23 +1,22 @@
-#Data Types
+# Data Types TASK
+#Task - Adding the two digits from a number together ---- 38 == 3 + 8 = 11
+# 🚨 Don't change the code below 👇
+two_digit_number = input("Type a two digit number: ")
+# 🚨 Don't change the code above 👆
 
-#string
+####################################
+#Write your code below this line 👇
 
-print("Hello"[4])
+#print(type(two_digit_number))
+#Now we know it is a string it needs to be converted into an integer
 
-#This is called subscripting - pulling out a character
 
-#Integer
+print(int(two_digit_number[0]) + int(two_digit_number[1]))
 
-print(123_343_542+4355)
+#### Second way Below
 
-#underscore represents commas in big numbers, computer ignores it
+#first_digit = two_digit_number[0]
+#second_digit = two_digit_number[1]
 
-#Float
-#Has a decimal point
-
-3.13455
-
-#Boolean
-
-True
-False
+#result = (int(first_digit) + int(second_digit))
+#print(result)
